@@ -30,3 +30,22 @@ You will be working with **and given** all the supplies listed below; **please n
 
 ### 1 x [Joystick breakout board](https://www.adafruit.com/product/3246)
 <img src="https://cdn-shop.adafruit.com/1200x900/3246-00.jpg" width=150 />
+
+## [Chapter 1](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_1)
+
+In the [Arduino 1](https://github.com/techshop/EEE-105-Arduino-1) class, we covered the topic of [pulse width modulation](https://github.com/techshop/EEE-105-Arduino-1/tree/master/chapter_3#part-2---pwm-digital-output) (PWM); we will revisit that concept in this chapter and see how it is used to control servos.  We'll be covering the following concepts:
+- pulse width, voltage and period
+- duty cycle
+- servo control
+
+## [Chapter 2](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_2)
+
+servo library
+
+## [Chapter 3](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_3)
+
+controlling the servo with various control structures
+
+## [Chapter 4](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_4)
+
+joystick smoothing and control
