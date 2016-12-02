@@ -25,3 +25,9 @@ These pulses are often designated in units of frequency which is just the invers
 The amount of time the signal is at `HIGH` (or at 5V in this case) defines the duty cycle or pulse width; for example, if the pulse is `HIGH` for 1ms, the duty cycle equates to 50% (1ms/2ms).  At a 50% duty the cycle, the average voltage during the entire cycle will be 50% of the pulse voltage (5V * 50% = 2.5V).  In this way, by adjusting the pulse width, we can adjust the voltage on the output pin.  We had used this technique in EEE-105 to control the brightness of a LED, but in this class we will use the same technique to control a servo!
 
 ## Part 2 - controlling a servo
+
+We can use a signal generator to show how to use PWM to control a servo.  The majority of hobby servos requires a 50Hz signal (0.02s or 20ms) with a pulse width in the range of 1-2ms; if you do that math, that equates to a duty cycle range of 5-10%. 
+
+We will use the [Rigol DG1022A](https://www.rigolna.com/products/waveform-generators/dg1000/) signal generator to generate a square wave using the `Pulse` functionality.  Note that we can't use the `Square` function on the signal generator because the smallest duty cycle it allows is 20%, which is out of the range of the servo - so instead, we use the `Pulse` function.
+
+By hooking the servo up to the signal, we can see that by adjusting the duty cycle, the position of the servo also changes.  It's important to note here that the pulse width can only be changed at a frequency of 50Hz; if it is changed more rapidly, you can get erratic behavior in your servo.
