@@ -40,12 +40,13 @@ In the [Arduino 1](https://github.com/techshop/EEE-105-Arduino-1) class, we cove
 
 ## [Chapter 2](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_2)
 
-servo library
+We're now going to look into the basics of controlling a servo with the Arduino as well as how to use a library to make this task a lot easier.  We'll be covering the following concepts:
+- libraries
+- for loop
+- while loop
 
 ## [Chapter 3](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_3)
 
-controlling the servo with various control structures
-
-## [Chapter 4](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_4)
-
-joystick smoothing and control
+In this final chapter we will be using a simple 2-axis joystick to control our servos; we'll be covering the following concepts:
+- potentiometers as joysticks
+- smoothing arrays
