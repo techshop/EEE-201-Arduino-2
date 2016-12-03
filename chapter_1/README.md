@@ -26,7 +26,7 @@ The amount of time the signal is at `HIGH` (or at 5V in this case) defines the d
 
 ## Part 2 - controlling a servo
 
-We can use a signal generator to show how to use PWM to control a servo.  The majority of hobby servos requires a 50Hz signal (0.02s or 20ms) with a pulse width in the range of 1-2ms; if you do that math, that equates to a duty cycle range of 5-10%. 
+We can use a signal generator to show how to use PWM to control a servo.  The majority of hobby servos requires a 50Hz signal (0.02s or 20ms) with a pulse width in the range of 0.5-2.5ms; if you do that math, that equates to a duty cycle range of 2.5-12.5%. 
 
 We will use the [Rigol DG1022A](https://www.rigolna.com/products/waveform-generators/dg1000/) signal generator to generate a square wave using the `Pulse` functionality.  Note that we can't use the `Square` function on the signal generator because the smallest duty cycle it allows is 20%, which is out of the range of the servo - so instead, we use the `Pulse` function.
 
