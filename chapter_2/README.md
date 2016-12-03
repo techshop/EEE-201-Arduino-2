@@ -22,7 +22,7 @@ Now that we know what sort of signal a servo requires in order to be controlled,
 
 [Sweep.ino](https://github.com/techshop/EEE-201-Arduino-2/blob/master/chapter_2/Sweep.ino)
 
-```
+```C
 void loop() {
     while (pos < 180) {
         pos += 1;
