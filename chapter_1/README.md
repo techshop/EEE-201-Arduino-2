@@ -33,6 +33,7 @@ We will use the [Rigol DG1022A](https://www.rigolna.com/products/waveform-genera
 By hooking the servo up to the signal, we can see that by adjusting the duty cycle, the position of the servo also changes.  It's important to note here that the pulse width can only be changed at a frequency of 50Hz; if it is changed more rapidly, you can get erratic behavior in your servo.
 
 For reference, servos come with wires that are either RED/BLACK/WHITE or RED/BROWN/ORANGE; the table below details the function of each colored wire.
+
 Style 1 | Style 2 | Function
 --- | --- | ---
 Red | Red | +V (typically 4-6V)
