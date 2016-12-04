@@ -41,6 +41,8 @@ Depending on the type of servo and [how it's being used](http://electronics.stac
 
 However if you were going to use a servo in a high load case (such as driving a robot wheel), you risk drawing too much power through the voltage regulator of the Arduino and then burning it up.  The way of getting around this is, instead of attaching the red +V wire to the Arduino, attach it to an external voltage supply like this:
 
+![circuit](https://cdn.rawgit.com/techshop/EEE-201-Arduino-2/master/chapter_1/Chapter-1-Part-3.svg)
+
 For reference, servos come with various wire colors; the table below details the function of each colored wire.
 
 Futaba | JR (*this class*) | HiTec | Function
