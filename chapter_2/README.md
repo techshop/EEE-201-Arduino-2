@@ -30,7 +30,7 @@ void loop() {
 
 All we're doing here is turning the servo pin `HIGH` for a duration equal to the variable `pulsewidth`, after which we turn the pin `LOW` for a duration of the desired `period` minus the `pulsewidth` (this way the total `HIGH`/`LOW` time is equal to `period`).
 
-If we look on the oscilloscope, we can see the clear shape of the square wave, and we can see that the wave is `ON` for the duration of `pulsewidth`.  However, the keen observer should have noticed that the period isn't 25ms.  The reason for this is a bit technical but part of it has to do with the fact that behind the scenes, various other pieces of code are being run; also, the function `digitalWrite()` is relatively slow.  All of this works together to throw the timing that we are hoping for (in this case a square wave of 50 Hz) off.  One way of getting around this is to use libraries!
+If we look on the oscilloscope, we can see the clear shape of the square wave, and we can see that the wave is `ON` for the duration of `pulsewidth`.  However, the keen observer should have noticed that the period isn't 25ms.  The reason for this is a bit technical but part of it has to do with the fact that behind the scenes, various other pieces of code are being run; also, the function `digitalWrite()` is relatively slow.  All of this works together to throw the timing that we are hoping for (in this case a square wave of 50 Hz) off.  See [here](https://arduino.stackexchange.com/questions/31904/manual-square-wave-period-is-off/) for a discussion.  One way of getting around this is to use libraries!
 
 ## Part 2 - Arduino libraries
 
