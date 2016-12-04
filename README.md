@@ -41,9 +41,9 @@ In the [Arduino 1](https://github.com/techshop/EEE-105-Arduino-1) class, we cove
 ## [Chapter 2](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_2)
 
 We're now going to look into the basics of controlling a servo with the Arduino as well as how to use a library to make this task a lot easier.  We'll be covering the following concepts:
-- libraries
-- for loop
-- while loop
+- Servo library
+- `for()` loop
+- `while()` loop
 
 ## [Chapter 3](https://github.com/techshop/EEE-201-Arduino-2/tree/master/chapter_3)
 
