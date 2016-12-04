@@ -87,7 +87,6 @@ Another way of achieving the same motion is through a [`while` loop](https://www
 void loop() {
     while (pos < 180) {
         pos += 1;
-        // in steps of 1 degree
         myservo.write(pos);              // tell servo to go to position in variable 'pos'
         delay(15);                       // waits 15ms for the servo to reach the position
       }
