@@ -35,6 +35,12 @@ By hooking the servo up to the signal, we can see that by adjusting the duty cyc
 
 ## Part 3 - important note about servo power and wire color
 
+In this class, we will be powering the servos directly from the Arduino.  What that means is that the red (+V) wire of the servo is hooked up to the +5V pin of the Arduino and thus the power is being drawn through the voltage regulator of the Arduino.  This voltage regulator has a current limit of 0.5A when powered through USB and 1A when powered through the external power jack.
+
+Depending on the type of servo and [how it's being used](http://electronics.stackexchange.com/a/53504/127025), servos can pull a large amount of current (~1A or so depending on the servo).  The way we are using the servos in this class, the current draw is not very large (perhaps 40mA).  So, when running two servos, we may experience 40mA * 2 = 80mA which is well within the 0.5A voltage regulator limit.
+
+However if you were going to use a servo in a high load case (such as driving a robot wheel), you risk drawing too much power through the voltage regulator of the Arduino and then burning it up.  The way of getting around this is, instead of attaching the red +V wire to the Arduino, attach it to an external voltage supply like this:
+
 For reference, servos come with various wire colors; the table below details the function of each colored wire.
 
 Futaba | JR (*this class*) | HiTec | Function
