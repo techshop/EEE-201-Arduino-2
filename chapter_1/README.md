@@ -9,7 +9,7 @@ In the [Arduino 1](https://github.com/techshop/EEE-105-Arduino-1) class, we cove
 
 * [Part 1 - pulse width modulation](#part-1---pulse-width-modulation)
 * [Part 2 - controlling a servo](#part-2---controlling-a-servo)
-* [Part 3 - important note about servo power and wire color](#part-2---important-note-about-servo-power-and-wire-color)
+* [Part 3 - important note about servo power and wire color](#part-3---important-note-about-servo-power-and-wire-color)
 
 ## Part 1 - pulse width modulation
 
