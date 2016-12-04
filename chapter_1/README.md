@@ -37,7 +37,7 @@ By hooking the servo up to the signal, we can see that by adjusting the duty cyc
 For reference, servos come with various wire colors; the table below details the function of each colored wire.
 
 Futaba | JR (*this class*) | HiTec | Function
---- | --- | ---
+--- | --- | --- | ---
 Red | Red | Red | +V (typically 4-6V)
 Black | Brown | Black | GND
 White | Orange | Yellow | DATA
