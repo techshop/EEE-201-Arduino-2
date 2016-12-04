@@ -9,6 +9,7 @@ In the [Arduino 1](https://github.com/techshop/EEE-105-Arduino-1) class, we cove
 
 * [Part 1 - pulse width modulation](#part-1---pulse-width-modulation)
 * [Part 2 - controlling a servo](#part-2---controlling-a-servo)
+* [Part 3 - important note about servo power and wire color](#part-2---important-note-about-servo-power-and-wire-color)
 
 ## Part 1 - pulse width modulation
 
@@ -32,7 +33,7 @@ We will use the [Rigol DG1022A](https://www.rigolna.com/products/waveform-genera
 
 By hooking the servo up to the signal, we can see that by adjusting the duty cycle, the position of the servo also changes.  It's important to note here that the pulse width can only be changed at a frequency of 50Hz; if it is changed more rapidly, you can get erratic behavior in your servo.
 
-### A note about servo wires
+## Part 3 - important note about servo power and wire color
 
 For reference, servos come with various wire colors; the table below details the function of each colored wire.
 
