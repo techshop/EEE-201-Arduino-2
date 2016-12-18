@@ -11,6 +11,11 @@ Let's complete our project by learning how to control our servos manually throug
 
 ## Part 1 - 2-axis joystick
 
+We begin by first getting the joystick working; hook it up as shown in the diagram below:
+
+
+Load the sketch named joystick.ino onto your arduino and then open up the serial monitor. You should see the values on it change as you push the joystick around.
+
 
 ## Part 2 - smoothing the joystick
 
