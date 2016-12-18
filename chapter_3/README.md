@@ -28,6 +28,6 @@ Upload the sketch [smooth.ino](https://github.com/techshop/EEE-201-Arduino-2/blo
 ## Part 3 - putting it all together
 
 Now that we know how to use our joystick, let's use it to control our pan/tilt servo unit; we will hook the servos and the joystick together as shown in the figure below:
-<img src="https://raw.githubusercontent.com/techshop/EEE-201-Arduino-2/master/chapter_3/Chapter_3-Part_3_bb.png">
+<img src="https://raw.githubusercontent.com/techshop/EEE-201-Arduino-2/master/chapter_3/Chapter_3-Part_3fzz_bb.png">
 
 Upload the sketch [joystick_servo.ino](https://github.com/techshop/EEE-201-Arduino-2/blob/master/chapter_3/joystick_servo.ino) and start controlling your servos!
